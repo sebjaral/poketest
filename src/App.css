@@ -124,6 +124,7 @@ nav {
   border-color: white;
   color: white;
   height: 120px;
+  text-transform: capitalize;
   
 }
 
