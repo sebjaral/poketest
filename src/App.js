@@ -30,6 +30,7 @@ function App() {
     fetchPokemons();
   }, [])
 
+  useEffect(() => { document.body.style.backgroundColor = '#ffcc00' }, [])
 
   return (
     <div>

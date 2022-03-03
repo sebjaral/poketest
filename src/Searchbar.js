@@ -26,9 +26,10 @@ const Searchbar = () => {
             </div>
             <div>
                 {pokemon && 
-                <div>
+                <div className="card-searchbar">
                     <div>Nombre: {pokemon.name}</div>
                     <div>Peso: {pokemon.weight}</div>  
+                    <div>Tipo: {pokemon.types[0].type.name}</div> 
                     <img src={pokemon.sprites.front_default} alt="Pokemon"/>                 
                 </div> 
                     }  
